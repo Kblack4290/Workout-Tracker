@@ -39,7 +39,7 @@ new WorkoutSchema({
 
             sets: {
 
-                type:Number
+                type:Number,
             },
             
         },
