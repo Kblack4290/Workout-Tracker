@@ -24,8 +24,17 @@ router.get("/api/workouts", (req,res) =>{
 
 // get range of workouts 
 router.get("/api/workouts/range", (req,res) =>{
-    Workout.find({}).limit(5)
+    Workout.aggregate([
+        { 
+            $addFields:{
+                totalDuration: {
+                    $sum:"$exercises.duration"
+                }
+            }
+        }
+    ])
     .sort({date:-1})
+    .limit(5)
     .then(dbWorkout => {
         res.json(dbWorkout)
     })
