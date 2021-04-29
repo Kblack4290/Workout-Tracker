@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const logger = require("morgan")
 
 const PORT = process.env.PORT || 3000;
 
@@ -12,7 +13,8 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useCreateIndex: true
 });
 
 // routes
