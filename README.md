@@ -23,11 +23,11 @@ When the user opens the application they will be presented with the homepage whe
 
 ![Window screenshot](./img/homepage.png?raw=true "homepage")
 
-![Window screenshot](./Img/newworkout.png?raw=true "Work Day Scheduler")
+![Window screenshot](./Img/newworkout.png?raw=true "new work out")
 
-![Window screenshot](./Img/workoutform.png?raw=true "Work Day Scheduler")
+![Window screenshot](./Img/workoutform.png?raw=true "form")
 
-![Window screenshot](./Img/dashboard.png?raw=true "Work Day Scheduler")
+![Window screenshot](./Img/dashboard.png?raw=true "dashboard")
 
 ## License 
 
