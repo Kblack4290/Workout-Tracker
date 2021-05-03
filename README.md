@@ -1,5 +1,9 @@
 # Workout-Tracker
 
+## Deployed Link
+
+https://workout-tracker4290.herokuapp.com/
+
 ## Description
 
 This application allows the user to track their workouts. After the user is submits thier workout for the day, it will be tracked in the users dashboard. In the dashboard the user will see their progression through out the last five days. Each workout is displayed and provides the user with stats. 
