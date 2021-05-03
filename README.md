@@ -23,11 +23,11 @@ When the user opens the application they will be presented with the homepage whe
 
 ![Window screenshot](./img/homepage.png?raw=true "homepage")
 
-![Window screenshot](./Img/newworkout.png?raw=true "new work out")
+![Window screenshot](./img/newworkout.png?raw=true "new work out")
 
-![Window screenshot](./Img/workoutform.png?raw=true "form")
+![Window screenshot](./img/workoutform.png?raw=true "form")
 
-![Window screenshot](./Img/dashboard.png?raw=true "dashboard")
+![Window screenshot](./img/dashboard.png?raw=true "dashboard")
 
 ## License 
 
